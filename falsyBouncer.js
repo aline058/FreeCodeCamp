@@ -9,9 +9,8 @@ function bouncer(arr) {
         } return newArr
     }
 
-
-  
-    
-  
-  
   console.log(bouncer([7, "ate", "", false, 9]));
+
+  //explicando o codigo
+  //com o laco for percorremos o array e usamos uma condicao para saber se o elemento é verdadeiro
+  //caso seja verdadeiro ele é adicionado a um novo array, que é retornado no final

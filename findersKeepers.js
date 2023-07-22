@@ -10,4 +10,9 @@ function findElement(arr, func) {
    
   }
   
-  console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; }));
+
+//explicando o codigo
+//o laco for percorre o array e cada elemento é usado como parametro para a funcao dada na funcao principal
+//caso o elemento atenda a condicao, este é retornado. Caso contrário o retorno é undefined
